@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>BLOG</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/379a610f4f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="logo.png"></a> 
+         <div class="nav-links" id="navLinks">
+             <i class="fa fa-times" onclick="hideMenue()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenue()"></i>
+    </nav>
+    <h1>Institute Of knowledge & creative ideas</h1>
+</section>
+<!------------------------------BLOG--------------------->
+<section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="bg12.jpg">
+            <h2>Our content & Ideas</h2>
+            <p>A.I. Artificial Intelligence (also known as A.I.) is a 2001 American
+                 science fiction film directed by Steven Spielberg. The screenplay by 
+                 Spielberg and screen story by Ian Watson were based on a short story
+                  "Supertoys Last All Summer Long" (1969) by Brian Aldiss. The film was produced
+                 by Kathleen Kennedy, Spielberg and Bonnie Curtis. It stars Haley Joel</p>
+                 <br>
+                 <p>A.I. Artificial Intelligence was released in North America on June 29, 2001, 
+                    by Warner Bros. Pictures and internationally by DreamWorks Pictures. The fil
+                    m received generally positive reviews from critics and grossed approximately 
+                    $235 million against a budget of $90–
+                    100 million. It was nominated for Best Visual Effects and Best Original Score
+                     at the 74th Academy Awards. In a 2016 BBC poll of 177 critics around the world, 
+                     A.I. Artificial Intelligence was voted the 
+                    eighty-third-greatest film since 2000.[4] A.I. is dedicated to Kubrick.</p>
+
+
+                    <div class="comment-box">
+
+                        <h3>Leave a comment</h3>
+                        <form class="comment-form">
+                            <input type="text" placeholder="Enter Name">
+                            <input type="text" placeholder="Enter Mail">
+                            <textarea  rows="5" placeholder="Youe comment">
+                            </textarea>
+                            <button type="submit" class="hero-btn red-btn"> Post your comment</button>
+                        </form>
+                    </div>
+        </div>
+        
+        <div class="blog-right">
+            <h3>Post Categories</h3>
+            <div>
+                <span>Bussiness Analytics</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Data Science</span>
+                <span>25</span>
+            </div>
+            <div>
+                <span>Artificial Intelligence</span>
+                <span>22</span>
+            </div>
+            <div>
+                <span>machine Learning</span>
+                <span>29</span>
+            </div>
+            <div>
+                <span>CAD Engeneering</span>
+                <span>16</span>
+            </div>
+            <div>
+                <span>Software Development</span>
+                <span>09</span>
+            </div>
+            <div>
+                <span>Web Designing</span>
+                <span>35</span>
+            </div>
+        </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<!------------footer------------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>I just want to say THANK YOU. I can honestly say I've learned more here than I did in my college course that had a 8k dollar price tag.<br> 
+         I can't thank you enough. Also, I purchased the source code and I'm a very happy customer.  I will most definitely spread the word and continue using your products brother. Thank you!</p>
+</section>
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenue(){ 
+        navLinks.style.right = "0";
+    }
+    function hideMenue(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

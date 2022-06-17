@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>course</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/379a610f4f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="logo.png"></a> 
+         <div class="nav-links" id="navLinks">
+             <i class="fa fa-times" onclick="hideMenue()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenue()"></i>
+    </nav>
+    <h1>Courses we offer</h1>
+</section>
+
+<!---------- course---------->
+
+<section class="course">
+    <h1>Courses we offer</h1>
+    <p>Learn How To Make A Complete Website Using HTML</p>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>Intermidiate</h3>
+            <p>Learn How To Make A Complete Website Using HTML and CSS,
+                 Complete HTML and CSS Multiple Pages Website Design Tutorial Step by Step</p>
+        </div>
+        <div class="course-col">
+            <h3>Degree</h3>
+            <p>Learn How To Make A Complete Website Using HTML and CSS,
+                 Complete HTML and CSS Multiple Pages Website Design Tutorial Step by Step</p>
+        </div>
+        <div class="course-col">
+            <h3>Masters</h3>
+            <p>Learn How To Make A Complete Website Using HTML and CSS,
+                 Complete HTML and CSS Multiple Pages Website Design Tutorial Step by Step</p>
+        </div>
+    </div>
+</section>
+
+<!--------------------------facilities------------------>
+<section class="facilities">
+    <h1>Our facilities</h1>
+    <p>How To Make A Complete Website Using HTML and CSS</p>
+
+
+    <div class="row">
+        <div class="facility-col">
+            <img src="bg7.jpg">
+            <h3>World class library</h3>
+            <p>How To Make Website Using HTML & CSS | 
+                Full Responsive Multi Page Website Design Step by Step</p>
+        </div>
+        <div class="facility-col">
+            <img src="bg8.jpg">
+            <h3>Playground </h3>
+            <p>How To Make Website Using HTML & CSS | 
+                Full Responsive Multi Page Website Design Step by Step</p>
+        </div>
+        <div class="facility-col">
+            <img src="bg9.jpg">
+            <h3>Foodcourt</h3>
+            <p>How To Make Website Using HTML & CSS | 
+                Full Responsive Multi Page Website Design Step by Step</p>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!------------footer------------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>I just want to say THANK YOU. I can honestly say I've learned more here than I did in my college course that had a 8k dollar price tag.<br> 
+         I can't thank you enough. Also, I purchased the source code and I'm a very happy customer.  I will most definitely spread the word and continue using your products brother. Thank you!</p>
+</section>
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenue(){ 
+        navLinks.style.right = "0";
+    }
+    function hideMenue(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

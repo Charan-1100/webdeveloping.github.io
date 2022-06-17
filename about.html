@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=Roboto:wght@100;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/379a610f4f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="logo.png"></a> 
+         <div class="nav-links" id="navLinks">
+             <i class="fa fa-times" onclick="hideMenue()"></i>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="course.html">COURSE</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenue()"></i>
+    </nav>
+    <h1>ABOUT US</h1>
+</section>
+
+<!---------- about us content---------->
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>WE are the largest University</h1>
+            <p>was a Jamaican-born and British-based community leader and activist.
+                She participated in the black nationalist, feminist and squatters' 
+                rights campaigns of the 1970s. She joined the British Black Panthers,
+                 occupied buildings in Brixton, South London, and became a key organizer in\
+                  the Black Women's Movement in the United Kingdom. In London, Morris 
+                  co-founded the Brixton Black Women's Group and the Organization of Women of African and 
+                  Asian Descent; when she studied at the Victoria University of Manchester, she was involved 
+                  in the Manchester Black Women's Co-operative and also travelled to China with the Society for Anglo-Chinese Understanding. After graduating,</p>
+                  <a href=""class="hero-btn red-btn">EXPLORE NOW</a>
+
+        </div>
+        <div class="about-col">
+            <img src="bg11.jpg">
+        </div>
+    </div>
+</section>
+
+
+
+
+<!------------footer------------->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>I just want to say THANK YOU. I can honestly say I've learned more here than I did in my college course that had a 8k dollar price tag.<br> 
+         I can't thank you enough. Also, I purchased the source code and I'm a very happy customer.  I will most definitely spread the word and continue using your products brother. Thank you!</p>
+</section>
+<script>
+    
+    var navLinks = document.getElementById("navLinks");
+    function showMenue(){ 
+        navLinks.style.right = "0";
+    }
+    function hideMenue(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
